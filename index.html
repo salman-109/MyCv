@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salman Abdul Sattar | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      color: #fff;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .avatar {
+      display: block;
+      margin: 20px auto;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0 0 10px #fff;
+    }
+    ul { padding-left: 20px; }
+    section {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .email {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Salman Abdul Sattar</h1>
+    <img src="https://i.ibb.co/ZYW3VTp/boy.png" alt="Default Avatar" class="avatar" />
+    <p class="email">📧 211400109@gift.edu.pk</p>
+
+    <section>
+      <h2>🎓 Education</h2>
+      <p><strong>BS Software Engineering</strong><br />
+      GIFT University (2021 – 2025)<br />
+      CGPA: 3.01</p>
+    </section>
+
+    <section>
+      <h2>🛠️ Skills</h2>
+      <ul>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>JavaScript</li>
+        <li>App Development</li>
+        <li>Firebase</li>
+        <li>Machine Learning Basics</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💼 Academic Projects</h2>
+
+      <h3>1. E-Token Queue Management System (FYP)</h3>
+      <p>
+        A virtual queue system using React, Node.js, Firebase Realtime DB, and notification services. 
+        Includes real-time queue updates, estimated wait time using ARIMA, and noise reduction via Kalman Filter.<br />
+        <a href="https://github.com/salman-109/e-token-system" target="_blank">🔗 View Project</a>
+      </p>
+
+      <h3>2. Pet Disease Prediction using ML</h3>
+      <p>
+        XGBoost-based model to predict cat/dog diseases from symptoms. Includes preprocessing, one-hot encoding, label encoding, and accuracy evaluation.<br />
+        <a href="https://github.com/salman-109/pet-disease-predictor" target="_blank">🔗 View Project</a>
+      </p>
+
+      <h3>3. TaskMate – Task Manager Web App</h3>
+      <p>
+        Simple full-stack task manager app using React (frontend) and Node.js (backend). Allows adding, updating, and deleting tasks.<br />
+        <a href="https://github.com/salman-109/taskmate" target="_blank">🔗 View Project</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>📞 Contact</h2>
+      <p>Feel free to connect via email for collaborations or opportunities!</p>
+    </section>
+  </div>
+</body>
+</html>
